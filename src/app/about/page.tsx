@@ -63,7 +63,7 @@ export default function AboutPage() {
       {/* What I do */}
       <section className="mt-12">
         <h2 className="text-xl font-bold">What I do</h2>
-        <p className="mt-3 text-gray-700 leading-relaxed">
+        <p className="mt-3 text-white-bold-700 leading-relaxed">
           I build full-stack apps with <b>Next.js/React</b> on the front and <b>Node/Express</b> or
           serverless functions on the back. For ML, I prototype with <b>Python</b> (pandas, scikit-learn)
           and add features like recommendations or simple classifiers. I care about clean code, fast
@@ -77,19 +77,19 @@ export default function AboutPage() {
         <div className="mt-4 grid sm:grid-cols-2 gap-6 text-sm">
           <div className="rounded-2xl border p-4">
             <h3 className="font-semibold">Frontend</h3>
-            <p className="mt-2 text-gray-700">
+            <p className="mt-2 text-white-700">
               TypeScript, Next.js, React, Tailwind, Forms, Auth, Charts, Accessibility.
             </p>
           </div>
           <div className="rounded-2xl border p-4">
             <h3 className="font-semibold">Backend & DevOps</h3>
-            <p className="mt-2 text-gray-700">
+            <p className="mt-2 text-white-700">
               Node/Express, REST/JSON, PostgreSQL, Prisma, Docker basics, Vercel.
             </p>
           </div>
           <div className="rounded-2xl border p-4">
             <h3 className="font-semibold">Machine Learning</h3>
-            <p className="mt-2 text-gray-700">
+            <p className="mt-2 text-white-700">
               Python, NumPy, pandas, scikit-learn, experimentation, evaluation, simple deployment.
             </p>
           </div>
@@ -113,9 +113,7 @@ export default function AboutPage() {
             <b>2025</b> — ML mini-project: trained a classifier to predict <i>[your domain here]</i>, added results
             dashboard to a Next.js app.
           </li>
-          <li className="rounded-2xl border p-4">
-            <b>2024</b> — Team project: full-stack app with auth, CRUD, and charts; implemented CI and preview deploys.
-          </li>
+        
         </ol>
       </section>
 
