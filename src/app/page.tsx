@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 // src/app/page.tsx
 import Link from "next/link";
 

@@ -19,12 +19,7 @@ export default function AboutPage() {
           className="rounded-full border object-cover"
           priority
         />
-    
-
-        
-        <div className="size-24 rounded-full border bg-gray-50 flex items-center justify-center text-lg font-bold">
-          YJ
-        </div>
+  
 
         <div>
           <h1 className="text-3xl md:text-4xl font-extrabold">Yeturi Jaahnavi</h1>
@@ -95,7 +90,7 @@ export default function AboutPage() {
           </div>
           <div className="rounded-2xl border p-4">
             <h3 className="font-semibold">Workflow</h3>
-            <p className="mt-2 text-gray-700">
+            <p className="mt-2 text-white-700">
               Git/GitHub, issues & PRs, Prettier/ESLint, basic CI, Notion docs.
             </p>
           </div>
